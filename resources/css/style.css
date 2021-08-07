@@ -1,0 +1,236 @@
+* {
+    color: seashell;
+  }
+  
+  body {
+    background-color: black;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  #header {
+    background-color: black;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid seashell;
+  }
+  
+  #logonav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+  }
+  
+  #headerlogo {
+    height: 50px;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  #headernav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50px;
+  }
+  
+  #headernav ul li {
+    display: inline;
+    text-decoration: underline;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    padding-right: 10px;
+  }
+  
+  #headerimg {
+    height: 50px;
+  }
+  
+  #sectionflex {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    width: 1350px;
+  }
+  
+  #tsection {
+    display: flex;
+    background-image: url("../images/img-mission-background.webp");
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+  }
+  
+  #tsectiontext {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 1200px;
+    background-color: black;
+    color: seashell;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #tsectiontext h2, h4 {
+    line-height: 0px;
+  }
+  
+  #msection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 680px;
+    width: 1000px;
+    margin-bottom: 40px;
+  }
+  
+  #msectiontext {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 100px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #msectiontext h2, h4 {
+    line-height: 0px;
+  }
+  
+  #msectioncategories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    height: 515px;
+    width: 1000px;
+  }
+  
+  #teacategory {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .teacategorypic {
+    display: flex;
+    width: 300px;
+    height: 200px;
+  }
+  
+  #teacategorypic1 {
+    background-image: url("../images/img-berryblitz.webp");
+    background-size: cover;
+  }
+  
+  #teacategorypic2 {
+    background-image: url("../images/img-spiced-rum.webp");
+    background-size: cover;
+  }
+  
+  #teacategorypic3 {
+    background-image: url("../images/img-donut.webp");
+    background-size: cover;
+  }
+  
+  #teacategorypic4 {
+    background-image: url("../images/img-donut.webp");
+    background-size: cover;
+  }
+  
+  #teacategorypic5 {
+    background-image: url("../images/img-bedford-bizarre.webp");
+    background-size: cover;
+  }
+  
+  #teacategorytext {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #bottomsection {
+    display: inline-flex;
+    flex-direction: column;
+    background-image: url("../images/img-locations-background.webp");
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+  }
+  
+  #locationstext {
+    display: flex;
+    margin-top: 50px;
+    height: 57px;
+    width: 980px;
+    color: seashell;
+    align-items: baseline;
+    justify-content: center;
+  }
+  
+  #locationstext p {
+    font-size: 22px;
+    color: seashell;
+  }
+  
+  #locationsblocks {
+    display: flex;
+    width: 980px;
+    height: 300px;
+    color: seashell;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #location {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #footer {
+    display: inline-flex;
+    flex-direction: column;
+    width: 1350px;
+    height: 250px;
+    align-items: center;
+  }
+  
+  #upperfooter {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #lowerfooter {
+    width: 1350px;
+    height: 50px;
+    padding-left: 20px;
+  }
+  
+  
+  
